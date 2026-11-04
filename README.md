@@ -1,4 +1,4 @@
-# 🤖 MULTIPURPOSE AUTONOMOUS NAVIGATION ROBOT WITH ARM
+# 🤖 MULTIPURPOSE SERVICE ROBOT
 
 <p align="center">
   <img src="images/banner.png" alt="Multipurpose Autonomous Navigation Robot" width="900">
