@@ -17,10 +17,6 @@
 
 </p>
 
-<p align="center">
-  <img src="prototype_model2.jpeg" alt="Multipurpose Service Robot" width="900">
-</p>
-
 ---
 # 👥 TEAM
 
@@ -395,7 +391,7 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 ## 🧱 CAD MODEL
 
 <p align="center">
-  <img src="images/cad_model.png" alt="CAD Model" width="850">
+  <img src="images/cadmodel.png" alt="Supposed CAD Model" width="850">
 </p>
 
 ## ⚡ CIRCUIT DIAGRAM
@@ -444,7 +440,7 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 # 📸 PROTOTYPE
 
 <p align="center">
-  <img src="images/prototype_photo.jpg" alt="Robot Prototype" width="900">
+  <img src="prototype_model2.jpg" alt="Robot Prototype" width="900">
 </p>
 
 ---
