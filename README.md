@@ -17,6 +17,10 @@
 
 </p>
 
+<p align="center">
+  <img src="prototype_model2.jpeg" alt="Multipurpose Service Robot" width="900">
+</p>
+
 ---
 # 👥 TEAM
 
@@ -696,6 +700,14 @@ Example:
 | **Paper Status** | DONE |
 | **Submission Date** | 'TODO' |
 | **Paper Link** | `TODO` |
+
+---
+
+# 📚 REVIEW PHOTOS
+<p align="center">
+  <img src="review1.jpeg" alt="Multipurpose Service Robot" width="900">
+</p>
+
 
 ---
 
