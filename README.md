@@ -397,7 +397,7 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 ## ⚡ CIRCUIT DIAGRAM
 
 <p align="center">
-  <img src="images/circuit_diagram.png" alt="Circuit Diagram" width="850">
+  <img src="images/circuitdiagram.png" alt="Circuit Diagram" width="850">
 </p>
 
 ## 🔄 FLOWCHART
@@ -440,7 +440,7 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 # 📸 PROTOTYPE
 
 <p align="center">
-  <img src="prototype_model2.jpg" alt="Robot Prototype" width="900">
+  <img src="prototype_model2.jpeg" alt="Robot Prototype" width="900">
 </p>
 
 ---
