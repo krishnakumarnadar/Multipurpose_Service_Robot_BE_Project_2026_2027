@@ -804,7 +804,7 @@ refactor: reorganized software modules
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-orange?style=for-the-badge" alt="Project Status">
+<img src="https://img.shields.io/badge/STATUS-WORK%20COMPLETED-green?style=for-the-badge" alt="Project Status">
 
 <img src="https://img.shields.io/badge/ROBOTICS-MOBILE%20MANIPULATOR-blue?style=for-the-badge" alt="Robotics">
 
