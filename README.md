@@ -1,7 +1,7 @@
 # 🤖 MULTIPURPOSE SERVICE ROBOT
 
 <p align="center">
-  <img src="images/banner.png" alt="Multipurpose Autonomous Navigation Robot" width="900">
+  <img src="images/banner.png" alt="Multipurpose Service Robot" width="900">
 </p>
 
 <p align="center">
@@ -28,10 +28,10 @@
 
 | #️⃣ | 👤 NAME | 🎓 ROLL NO. | 🏛️ BRANCH |
 |:---:|---|:---:|:---:|
-| **01** | **Krishnakumar Nadar** | **21** | **AURO** |
-| **02** | **Piyush Patil** | **24** | **AURO** |
-| **03** | **Sumeet Hinduja** | **8** | **AURO** |
-| **04** | **Aryan Sahu** | **28** | **AURO** |
+| **01** | **Krishnakumar Nadar** | **15** | **AURO** |
+| **02** | **Piyush Patil** | **20** | **AURO** |
+| **03** | **Sumeet Hinduja** | **4** | **AURO** |
+| **04** | **Aryan Sahu** | **26** | **AURO** |
 
 ---
 
@@ -54,7 +54,7 @@
 
 ## 🚀 Overview
 
-The **Multipurpose Autonomous Navigation Robot with Arm** is a mobile robotic platform designed to combine **autonomous navigation, computer vision, obstacle detection, and robotic manipulation** into a single system.
+The **Multipurpose Service Robot** is a mobile robotic platform designed to combine **autonomous navigation, computer vision, obstacle detection, and robotic manipulation** into a single system.
 
 The robot is designed to perceive its environment, identify relevant objects, navigate toward a target, and use its robotic arm to perform pick-and-place operations.
 
@@ -250,16 +250,17 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 
 | # | COMPONENT | SPECIFICATION | QTY | PURPOSE |
 |---|---|---|---:|---|
-| 01 | 🧠 Microcontroller | `TODO` | `TODO` | Robot control |
-| 02 | 🚗 Robot Chassis | `TODO` | 1 | Mobile platform |
-| 03 | ⚙️ DC Motors | `TODO` | `TODO` | Locomotion |
-| 04 | 🔌 Motor Driver | `TODO` | `TODO` | Motor control |
-| 05 | 📷 Camera | `TODO` | 1 | Computer vision |
-| 06 | 📡 Sensors | `TODO` | `TODO` | Environment sensing |
-| 07 | 🦾 Robotic Arm | `TODO` | 1 | Object manipulation |
-| 08 | ⚙️ Servo Motors | `TODO` | `TODO` | Arm actuation |
-| 09 | 🖐️ Gripper | `TODO` | 1 | Object grasping |
+| 01 | 🧠 Microcontroller | ARDUINO UNO | 1 | Robot control |
+| 02 | 🚗 Robot Chassis | PLYWOOD | 1 | Mobile platform |
+| 03 | ⚙️ DC Motors |  | 4 | Locomotion |
+| 04 | 🔌 Motor Driver | `TODO` | 1 | Motor control |
+| 05 | 📷 Camera | ESP32-CAM | 1 | Computer vision |
+| 06 | 📡 Sensors | ULTRASONIC SENSOR | 1 | Environment sensing |
+| 07 | 🦾 Robotic Arm | 3D PRINTED | 1 | Object manipulation |
+| 08 | ⚙️ Servo Motors | 'TODO' | 4 | Arm actuation |
+| 09 | 🖐️ Gripper | 3D PRINTED | 1 | Object grasping |
 | 10 | 🔋 Battery | `TODO` | 1 | Power supply |
+| 11 | 🔋 ESP 32-CAM Battery | POWERBANK | 1 | Power supply |
 
 ---
 
@@ -275,6 +276,7 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 | 📊 Simulink | System simulation |
 | 💻 VS Code | Software development |
 | 🌐 Git / GitHub | Version control |
+| 💻 ESP32-CAM | Camera control |
 
 ---
 
@@ -376,12 +378,11 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 | SYSTEM | TECHNOLOGY | FUNCTION |
 |---|---|---|
 | 💻 High-Level Computer | Python / OpenCV / YOLO | Vision & decision making |
-| ⚡ Microcontroller | Arduino / C++ | Low-level control |
+| ⚡ Microcontroller | Arduino / C++/ ESP32-CAM | Low-level control |
 | 🚗 Mobile Platform | Motors + Driver | Robot movement |
 | 🦾 Robotic Arm | Servos | Manipulation |
-| 📡 Sensors | `TODO` | Environment feedback |
+| 📡 Sensors | Ultrasonic Sensor | Environment feedback |
 
-> **TODO:** Add the final communication protocol once the hardware architecture is finalized.
 
 ---
 
@@ -631,13 +632,13 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 | 📅 WEEK | 📝 PLANNED WORK | 🚦 STATUS |
 |:---:|---|:---:|
 | **Week 1** | Problem Finalization | ✅ Complete |
-| **Week 2** | Object Detection Model Start | `Complete` |
-| **Week 3** | Requirement Analysis | `Complete` |
-| **Week 4** | System Design | `Ongoing` |
-| **Week 5** | Prototype Development | `Ongoing` |
-| **Week 6** | Testing | `TODO` |
-| **Week 7** | Documentation | `TODO` |
-| **Week 8** | Paper Writing | `TODO` |
+| **Week 2** | Object Detection Model Start | ✅ Complete |
+| **Week 3** | Requirement Analysis | ✅ Complete |
+| **Week 4** | System Design | ✅ Complete |
+| **Week 5** | Prototype Development | ✅ Complete |
+| **Week 6** | Testing | ✅ Complete |
+| **Week 7** | Documentation | ✅ Complete |
+| **Week 8** | Paper Writing | ✅ Complete |
 
 ### 📌 STATUS LEGEND
 
@@ -654,14 +655,18 @@ The robot operates as a **mobile manipulator**, combining autonomous mobility wi
 
 | 📅 WEEK | 📆 DATE | ✅ WORK COMPLETED | 🎯 NEXT WEEK | ⚠️ ISSUES / CHALLENGES | 🔗 COMMIT |
 |:---:|:---:|---|---|---|:---:|
-| **01** | `10/08/2026` | `Object Detection YOLO model making` | `Improvising It` | `Some problems in detecting it` | `[Commit](#)` |
-| **02** | `20/08/2026` | `Arm Designing` | `Gear for the Arm Desigining` | `Robot Body Designing` | `[Commit](#)` |
-| **03** | `DD/MM/YYYY` | `Yolo Model Prediction` | `Navigation through Sensors` | `Poor Sensing ` | `[Commit](#)` |
-| **04** | `DD/MM/YYYY` | `TODO` | `TODO` | `TODO` | `[Commit](#)` |
-| **05** | `DD/MM/YYYY` | `TODO` | `TODO` | `TODO` | `[Commit](#)` |
-| **06** | `DD/MM/YYYY` | `TODO` | `TODO` | `TODO` | `[Commit](#)` |
-| **07** | `DD/MM/YYYY` | `TODO` | `TODO` | `TODO` | `[Commit](#)` |
-| **08** | `DD/MM/YYYY` | `TODO` | `TODO` | `TODO` | `[Commit](#)` |
+| **01** | `10/08/2026 - 16/08/2026` | Initial research on autonomous waste collection robots and planning of the project architecture. | Begin YOLO-based waste detection model development. | Identifying suitable hardware and defining project requirements. | `[Commit](#)` |
+| **02** | `17/08/2026 - 23/08/2026` | Started YOLO object detection model development for waste identification. | Improve model predictions and test different waste objects. | Inconsistent object detection and limited training images. | `[Commit](#)` |
+| **03** | `24/08/2026 - 30/08/2026` | Collected waste images and explored dataset preparation and annotation for YOLO. | Train the model using the prepared dataset. | Limited dataset size and image variations. | `[Commit](#)` |
+| **04** | `31/08/2026 - 06/09/2026` | Performed initial YOLO model training and tested object predictions. | Improve detection accuracy for different waste categories. | Incorrect predictions and missed object detections. | `[Commit](#)` |
+| **05** | `07/09/2026 - 13/09/2026` | Tested the trained YOLO model with different waste images and evaluated prediction results. | Improve the model and explore real-time image detection. | Some waste objects were not detected consistently. | `[Commit](#)` |
+| **06** | `14/09/2026 - 20/09/2026` | Started planning the mobile robot chassis and studied the placement of electronic components. | Continue chassis design and mechanical assembly planning. | Component positioning and space constraints. | `[Commit](#)` |
+| **07** | `21/09/2026 - 27/09/2026` | Worked on robotic arm design and explored the mechanical arrangement of the robot. | Continue mechanical design and prepare the mobile platform. | Gear mechanism and arm stability considerations. | `[Commit](#)` |
+| **08** | `28/09/2026 - 04/10/2026` | Continued chassis preparation and reviewed the mounting arrangement for motors and electronic components. | Begin mounting the hardware components onto the chassis. | Proper alignment and secure mounting of components. | `[Commit](#)` |
+| **09** | `05/10/2026 - 11/10/2026` | Worked on ESP32-CAM configuration using Arduino IDE and continued testing the YOLO model with waste images. | Establish camera streaming and test image acquisition. | Camera initialization and object detection inconsistencies. | `[Commit](#)` |
+| **10** | `12/10/2026 - 18/10/2026` | Configured ESP32-CAM and established a live video feed through a web interface. | Improve video streaming and evaluate camera performance. | Video freezing, latency and inconsistent frame rates. | `[Commit](#)` |
+| **11** | `19/10/2026 - 25/10/2026` | Mounted the chassis components, worked on Arduino and motor driver connections, and tested individual motor movements. | Test coordinated movement of the front and rear motors. | Motor speed differences, wiring connections and movement synchronization. | `[Commit](#)` |
+| **12** | `26/10/2026 - 29/10/2026` | Tested the mobile robot movement using Arduino and L298N motor driver. Continued YOLO prediction testing with different waste objects. | Improve motor movement and explore integration of ESP32-CAM with the detection system. | Uneven motor movement, camera streaming performance and inconsistent YOLO predictions. | `[Commit](#)` |
 
 ---
 
@@ -686,10 +691,10 @@ Example:
 
 | 📄 ITEM | 📝 DETAILS |
 |---|---|
-| **Paper Title** | `TODO` |
-| **Conference / Journal** | `TODO` |
-| **Paper Status** | `TODO` |
-| **Submission Date** | `TODO` |
+| **Paper Title** | MULTIPURPOSE SERVICE ROBOT |
+| **Conference / Journal** | ONGOING |
+| **Paper Status** | DONE |
+| **Submission Date** | 'TODO' |
 | **Paper Link** | `TODO` |
 
 ---
@@ -699,14 +704,26 @@ Example:
 ### 📑 Research Papers
 
 ```text
-[1] A. Author, B. Author, "Title of the Paper,"
-    Journal/Conference Name, vol. X, no. Y, pp. xx-yy, Year.
+[1] J. Lahoti, J. Sn, M. Vamshi Krishna, M. Prasad, R. B. S. Rajeshwari, N. Mysore, and J. S. Nayak, "Multi-class waste segregation using computer vision and robotic arm,"
+    PeerJ Computer Science, vol. 10, e1957, 2024. doi: 10.7717/peerj-cs.1957.
 
-[2] A. Author, B. Author, "Title of the Paper,"
-    Journal/Conference Name, vol. X, no. Y, pp. xx-yy, Year.
+[2] R. Harada, T. Oyama, K. Fujimoto, T. Shimizu, M. Ozawa, J. S. Amar, and M. Sakai, "Trash detection algorithm suitable for mobile robots using improved YOLO,"
+    Journal of Advanced Computational Intelligence and Intelligent Informatics, vol. 27, no. 4, pp. 622-631, 2023. doi: 10.20965/jaciii.2023.p0622.
 
-[3] A. Author, B. Author, "Title of the Paper,"
-    Journal/Conference Name, vol. X, no. Y, pp. xx-yy, Year.
+[3] "SHIFT-T: A low-cost autonomous mobile robot for trash collection and sorting for effective waste management,"
+    Proc. IEEE International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON), 2024. doi: 10.1109/PEEIACON63629.2024.10800136.
+
+[4] "A vision based approach to localize waste objects and geometric features extraction for robotic manipulation,"
+    Procedia Computer Science, vol. 218, pp. 1342-1352, 2023. doi: 10.1016/j.procs.2023.01.113.
+
+[5] W. Lu and J. Chen, "Computer vision for solid waste sorting: A critical review of academic research,"
+    Waste Management, vol. 142, pp. 29-43, 2022. doi: 10.1016/j.wasman.2022.02.009.
+
+[6] Y.-H. Lin, W.-L. Mao, and H. I. K. Fathurrahman, "Development of intelligent municipal solid waste sorter for recyclables,"
+    Waste Management, vol. 174, pp. 597-604, 2024. doi: 10.1016/j.wasman.2023.12.040.
+
+[7] V. T. Ha, T. T. Thuong, and V. T. Ha, "Design, control, and development of an intelligent waste sorting system with a robotic arm,"
+    Journal of Applied Science and Engineering, vol. 26, no. 9, pp. 1337-1344, 2023. doi: 10.6180/jase.202309_26(9).0014.
 ```
 
 ### 🔧 Technical References
