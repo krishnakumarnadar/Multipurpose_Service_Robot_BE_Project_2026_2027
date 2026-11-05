@@ -1,7 +1,7 @@
 # 🤖 MULTIPURPOSE SERVICE ROBOT
 
 <p align="center">
-  <img src="images/prototype_model.jpeg" alt="Multipurpose Service Robot" width="900">
+  <img src="prototype_model.jpeg" alt="Multipurpose Service Robot" width="900">
 </p>
 
 <p align="center">
