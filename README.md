@@ -10,7 +10,7 @@
 
 <p align="center">
 
-![Project Status](https://img.shields.io/badge/Project-Under%20Development-orange?style=for-the-badge)
+![Project Status](https://img.shields.io/badge/Project-Completed-green?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Robotics-blue?style=for-the-badge)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-OpenCV-green?style=for-the-badge)
 ![Embedded](https://img.shields.io/badge/Embedded-Arduino-red?style=for-the-badge)
