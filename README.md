@@ -62,13 +62,28 @@
 <b>▶️ Click the thumbnail to watch the project presentation</b>
 </p>
 
-
+## Geotag Photos
 <p align="center">
-  <img src="images/cadmodel.png" alt="Supposed CAD Model" width="850">
+  <img src="images/geotag1.jpeg"  width="850">
 </p>
 
+<p align="center">
+  <img src="images/geotag2.jpeg"  width="850">
+</p>
 
+<p align="center">
+  <img src="images/geotag3.jpeg"  width="850">
+</p>
+
+<p align="center">
+  <img src="images/geotag4.jpeg"  width="850">
+</p>
+
+<p align="center">
+  <img src="images/geotag5.jpeg"  width="850">
+</p>
 ---
+
 
 
 ## 🚀 Overview
