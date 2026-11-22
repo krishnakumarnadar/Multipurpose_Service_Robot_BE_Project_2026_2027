@@ -52,6 +52,23 @@
 
 </p>
 
+##Demonstration
+
+<p align="center">
+
+<a href="https://www.youtube.com/watch?v=HLdL1jsPqN0">
+<img src="https://img.youtube.com/vi/HLdL1jsPqN0/maxresdefault.jpg" width="800">
+</a>
+
+</p>
+
+<p align="center">
+<b>▶️ Click the thumbnail to watch the project presentation</b>
+</p>
+
+---
+
+
 ## 🚀 Overview
 
 The **Multipurpose Service Robot** is a mobile robotic platform designed to combine **autonomous navigation, computer vision, obstacle detection, and robotic manipulation** into a single system.
