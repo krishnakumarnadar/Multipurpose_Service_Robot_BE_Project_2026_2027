@@ -48,7 +48,7 @@
 
 ---
 
-## Demonstration
+## Demonstration and Viva
 
 <p align="center">
 
@@ -61,6 +61,12 @@
 <p align="center">
 <b>▶️ Click the thumbnail to watch the project presentation</b>
 </p>
+
+
+<p align="center">
+  <img src="images/cadmodel.png" alt="Supposed CAD Model" width="850">
+</p>
+
 
 ---
 
