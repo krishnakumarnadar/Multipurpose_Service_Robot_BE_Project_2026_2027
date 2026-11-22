@@ -48,12 +48,12 @@
 
 ---
 
-##Demonstration
+## Demonstration
 
 <p align="center">
 
 <a href="https://www.youtube.com/watch?v=HLdL1jsPqN0">
-<img src="https://img.youtube.com/vi/HLdL1jsPqN0/projectpresentation.jpg" width="800">
+<img src="projectpresentation.jpg" width="800">
 </a>
 
 </p>
